@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container,
+.button-container,
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #918888;
+}
+
+.timer,
+button {
+  margin: 0.5em;
+  border-radius: 0.1em;
+}
+
+.timer {
+  height: 20em;
+  width: 20em;
+  align-items: center;
+  padding: 1em;
+  background-color: #ba2f08;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.timer p {
+  font-size: 5em;
+}
+
+button {
+  width: 5em;
+  border: none;
+  border-radius: 0.2em;
+  padding: 0.3em 0.5em;
+  box-shadow: rgba(0, 0, 0.2) 0 0.1em 0.4em;
+  background-color: #403463;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #231c36;
+}
+
+button:active {
+  box-shadow: 0 0 0;
+  outline: 0;
+}
