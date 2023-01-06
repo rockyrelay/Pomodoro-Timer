@@ -39,6 +39,6 @@ You can read about the pomodoro technique on Cirillo's site [here](https://franc
 
 ## Personal Deadline
 
-- [ ] **03/01/2023**
+- [ ] **10/01/2023**
 
 ---
